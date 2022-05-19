@@ -1,0 +1,194 @@
+body {
+    height: 0;
+}
+
+#game-div {
+    width: 0;
+    height: 0;
+}
+
+#game-field-div {
+    border: 50px solid blueviolet;
+    width: 576px;
+    height: 576px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: -100;
+}
+
+
+.room-div {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    background-color: burlywood;
+}
+
+.room-div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.arrow-div {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+
+.arrow-active {
+    color: greenyellow;
+}
+
+.left-arrow {
+    text-align: left;
+}
+
+.right-arrow {
+    text-align: right;
+}
+
+.up-arrow, .down-arrow {
+    text-align: center;
+}
+
+.player-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.player-icon-red {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: red;
+}
+
+.player-icon-blue {
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: blue;
+}
+
+.player-icon-green {
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: green;
+}
+
+.player-icon-yellow {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: yellow;
+}
+
+.treasure-icon {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 25px;
+    text-shadow: 1px 1px black;
+
+}
+
+.actual-player-icon-div {
+    margin: 0;
+    display: inline-block;
+}
+
+.treasure-card {
+    border: 2px solid brown;
+    background-color: burlywood;
+    border-radius: 5px;
+    width: 3em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treasure-card span {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+
+
+
+.treasure-card > p {
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#winner-p {
+    font-size: 3em;
+    font-weight: bold;
+    color: green;
+    z-index: 10000;
+    background-color: white;
+    border: 2px solid brown;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 85px;
+}
+
+.player-card {
+    border: 2px solid grey;
+    width: max-content;
+
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+#game {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+#game-field {
+    border: 50px solid blueviolet;
+    width: 576px;
+    height: 576px;
+    position: absolute;
+    
+}
+
+
+.active-player-card {
+    border-color: chartreuse;
+}
+
+
+.go-to-start {
+    color: orange;
+}
+
+#game-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
